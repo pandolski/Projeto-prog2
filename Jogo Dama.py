@@ -615,26 +615,26 @@ def regras():
         fonte = pygame.font.SysFont('comicsansms', 20)
 
         info1 = fonte.render('O jogo de damas eh praticado em um tabuleiro de 64 casas.', False, (AZUL))
-        info2 = fonte.render('O objetivo do jogo eh capturar todas as pecas do oponente.', False, (VERDE_ESCURO))
-        info3 = fonte.render('A peca anda soh para frente, uma casa de cada vez, na diagonal.', False, (VERDE_ESCURO))
-        info4 = fonte.render('Quando a peca atinge a oitava linha do tabuleiro ela vira dama.', False, (VERDE_ESCURO))
+        info2 = fonte.render('O objetivo do jogo eh capturar todas as pecas do oponente.', False, (AZUL))
+        info3 = fonte.render('A peca anda soh para frente, uma casa de cada vez, na diagonal.', False, (AZUL))
+        info4 = fonte.render('Quando a peca atinge a oitava linha do tabuleiro ela vira dama.', False, (AZUL))
         info5 = fonte.render('A dama eh uma peca de movimentos mais amplos. Ela anda para frente e para tras,', False,
                              (AZUL))
         info6 = fonte.render('quantas casas quiser, nao podendo saltar sobre uma peca da mesma cor. ', False, (AZUL))
-        info7 = fonte.render('A captura e obrigatoria, ou seja, nao existe sopro.', False, (VERDE_ESCURO))
+        info7 = fonte.render('A captura e obrigatoria, ou seja, nao existe sopro.', False, (VAZUL))
         info8 = fonte.render('Duas ou mais pecas juntas, na mesma diagonal, nao podem ser capturadas.', False,
-                             (VERDE_ESCURO))
+                             (AZUL))
         info9 = fonte.render('A peca e a dama podem capturar tanto para frente como para tras.', False, (AZUL))
         info10 = fonte.render('O movimento de captura pode ser encadeado sem que o jogador passe a vez.', False, (AZUL))
 
         game1 = fonte.render('Durante o jogo, ao clicar em uma peca, sera exibido em verde os movimentos', False,
-                             (VERMELHO))
+                             (AZUL))
         game2 = fonte.render('possiveis da mesma. Se nada acontecer ao clicar em uma peca, significa que', False,
-                             (VERMELHO))
+                             (VAZUL))
         game3 = fonte.render('ela nao tem movimentos possiveis ou o turno pertence ao outro jogador.', False,
-                             (VERMELHO))
+                             (AZUL))
 
-        voltar = fonte.render('Pressione qualquer tecla para voltar ao menu.', False, VERDE_CLARO)
+        voltar = fonte.render('Pressione qualquer tecla para voltar ao menu.', False, VAZUL)
 
         display.blit(info1, (5, 65))
         display.blit(info2, (5, 95))
